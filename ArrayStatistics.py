@@ -8,7 +8,10 @@ class ArrayStatistics:
     def numElemsIter2(self, stringWithCommaSeparatedNumbers):
         if(stringWithCommaSeparatedNumbers == ""):
             return [0, -1]
-        elif "," in stringWithCommaSeparatedNumbers:
-            return [0, 0]
         else:
-            return [0, 1]
+            numbers = stringWithCommaSeparatedNumbers.split(",")
+            minimum = numbers[0]
+            for number in numbers:
+                minimum = min(number, minimum)
+
+            return [len(numbers), int(minimum)]
