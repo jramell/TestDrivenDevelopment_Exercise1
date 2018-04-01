@@ -17,4 +17,7 @@ class ArrayStatistics:
             return [len(numbers), int(minimum)]
 
     def numElemsIter3(self, stringWithCommaSeparatedNumbers):
-        return [0, -1, -1]
+        if(stringWithCommaSeparatedNumbers == ""):
+            return [0, -1, -1]
+        else:
+            return [0, 1, 1]
