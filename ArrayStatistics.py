@@ -6,4 +6,7 @@ class ArrayStatistics:
         return len(stringWithCommaSeparatedNumbers.split(","));
 
     def numElemsIter2(self, stringWithCommaSeparatedNumbers):
-        return [0, -1];
+        if(stringWithCommaSeparatedNumbers == ""):
+            return [0, -1];
+        else:
+            return [0, 1];
