@@ -27,4 +27,4 @@ class ArrayStatistics:
                 minimum = min(int(number), minimum)
                 maximum = max(int(number), maximum)
 
-            return [len(numbers), int(minimum), int(maximum)]
+            return [len(numbers), minimum, maximum]
