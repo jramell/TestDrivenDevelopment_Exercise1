@@ -28,3 +28,6 @@ class ArrayStatistics:
                 maximum = max(int(number), maximum)
 
             return [len(numbers), minimum, maximum]
+
+    def numElemsIter4(self, stringWithCommaSeparatedNumbers):
+        return 1;

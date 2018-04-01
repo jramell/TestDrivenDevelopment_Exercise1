@@ -37,3 +37,6 @@ class TestArrayStatistics(TestCase):
 
     def test_numElemsIter3_nElems(self):
         self.assertEqual(ArrayStatistics().numElemsIter3("1,2,3,4,10,14"), [6, 1, 14]);
+
+    def test_numElemsIter4_empty(self):
+        self.assertEqual(ArrayStatistics().numElemsIter4(""), [0, -1, -1, -1])
