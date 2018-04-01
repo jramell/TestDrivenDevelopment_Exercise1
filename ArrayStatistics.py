@@ -32,7 +32,15 @@ class ArrayStatistics:
     def numElemsIter4(self, stringWithCommaSeparatedNumbers):
         if(stringWithCommaSeparatedNumbers == ""):
             return [0, -1, -1, -1]
-        elif "," in stringWithCommaSeparatedNumbers:
-            return [2, 1, 2, 1.5];
         else:
-            return [1, 1, 1, 1]
+            numbers = stringWithCommaSeparatedNumbers.split(",")
+            minimum = int(numbers[0])
+            maximum = int(numbers[0])
+            median = 0
+            for number in numbers:
+                minimum = min(int(number), minimum)
+                maximum = max(int(number), maximum)
+                median += int(number)
+
+            median /= len(numbers)
+            return [len(numbers), minimum, maximum, median]
