@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f057da98-c3c4-4678-93e5-ecb6e5eb07ab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ArrayStatistics.py" afterPath="$PROJECT_DIR$/ArrayStatistics.py" />
-      <change beforePath="$PROJECT_DIR$/test_arrayStatistics.py" afterPath="$PROJECT_DIR$/test_arrayStatistics.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,22 +13,22 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TDD_NumberSequence$Unittests_for_test_solver_TestSolver_test_demo.coverage" NAME="Unittests for test_solver.TestSolver.test_demo Coverage Results" MODIFIED="1522479233175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TDD_NumberSequence$Unittests_in_test_arrayStatistics_py.coverage" NAME="Unittests in test_arrayStatistics.py Coverage Results" MODIFIED="1522550634494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TDD_NumberSequence$Unittests_in_test_arrayStatistics_py.coverage" NAME="Unittests in test_arrayStatistics.py Coverage Results" MODIFIED="1522550782685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TDD_NumberSequence$Unittests_in_test_solver_py.coverage" NAME="Unittests in test_solver.py Coverage Results" MODIFIED="1522479325356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ArrayStatistics.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArrayStatistics.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ArrayStatistics.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_arrayStatistics.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_arrayStatistics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_arrayStatistics.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -61,8 +59,8 @@
         <option value="$PROJECT_DIR$/test_solver.py" />
         <option value="$PROJECT_DIR$/TDD_String.py" />
         <option value="$PROJECT_DIR$/TDD_ArrayStatistics.py" />
-        <option value="$PROJECT_DIR$/ArrayStatistics.py" />
         <option value="$PROJECT_DIR$/test_arrayStatistics.py" />
+        <option value="$PROJECT_DIR$/ArrayStatistics.py" />
       </list>
     </option>
   </component>
@@ -217,11 +215,11 @@
     <history-entry file="Unittests_in_test_arrayStatistics_py - 2018.03.31 at 21h 43m 54s.xml">
       <configuration name="Unittests in test_arrayStatistics.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solver_py - 2018.03.31 at 01h 54m 23s.xml">
-      <configuration name="Unittests in test_solver.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_arrayStatistics_py - 2018.03.31 at 21h 46m 16s.xml">
+      <configuration name="Unittests in test_arrayStatistics.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solver_py - 2018.03.31 at 01h 54m 41s.xml">
-      <configuration name="Unittests in test_solver.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_arrayStatistics_py - 2018.03.31 at 21h 46m 22s.xml">
+      <configuration name="Unittests in test_arrayStatistics.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_solver_py - 2018.03.31 at 01h 55m 05s.xml">
       <configuration name="Unittests in test_solver.py" configurationId="tests" />
@@ -279,14 +277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArrayStatistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_arrayStatistics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -294,6 +284,14 @@
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayStatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>

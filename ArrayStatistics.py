@@ -1,3 +1,6 @@
 class ArrayStatistics:
     def numElems(self, stringWithCommaSeparatedNumbers):
-        return 0
+        if(stringWithCommaSeparatedNumbers == ""):
+            return 0;
+        else:
+            return 1;
