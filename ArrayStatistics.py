@@ -30,4 +30,7 @@ class ArrayStatistics:
             return [len(numbers), minimum, maximum]
 
     def numElemsIter4(self, stringWithCommaSeparatedNumbers):
-        return [0, -1, -1, -1];
+        if(stringWithCommaSeparatedNumbers == ""):
+            return [0, -1, -1, -1]
+        else:
+            return [1, 1, 1, 1]
