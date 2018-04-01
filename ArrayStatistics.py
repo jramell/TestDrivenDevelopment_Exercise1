@@ -7,6 +7,8 @@ class ArrayStatistics:
 
     def numElemsIter2(self, stringWithCommaSeparatedNumbers):
         if(stringWithCommaSeparatedNumbers == ""):
-            return [0, -1];
+            return [0, -1]
+        elif "," in stringWithCommaSeparatedNumbers:
+            return [0, 0]
         else:
-            return [0, 1];
+            return [0, 1]

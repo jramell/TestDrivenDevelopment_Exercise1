@@ -22,3 +22,6 @@ class TestArrayStatistics(TestCase):
 
     def test_numElemsIter2_twoElems(self):
         self.assertEqual(ArrayStatistics().numElemsIter2("0,2"), [0, 0])
+
+    def test_numElemsIter2_nElems(self):
+        self.assertEqual(ArrayStatistics().numElems("1,2,3,4,10,14"), [6, 1])
