@@ -20,6 +20,6 @@ class ArrayStatistics:
         if(stringWithCommaSeparatedNumbers == ""):
             return [0, -1, -1]
         elif "," in stringWithCommaSeparatedNumbers:
-            return [1, 1, 1]
-        else:
             return [2, 1, 2]
+        else:
+            return [1, 1, 1]
