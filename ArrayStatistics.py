@@ -42,5 +42,5 @@ class ArrayStatistics:
                 maximum = max(int(number), maximum)
                 median += int(number)
 
-            median /= len(numbers)
+            median /= len(numbers);
             return [len(numbers), minimum, maximum, median]
