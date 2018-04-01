@@ -19,28 +19,28 @@ class ArrayStatistics:
     def numElemsIter3(self, stringWithCommaSeparatedNumbers):
         if(stringWithCommaSeparatedNumbers == ""):
             return [0, -1, -1]
-        else:
-            numbers = stringWithCommaSeparatedNumbers.split(",")
-            minimum = int(numbers[0])
-            maximum = int(numbers[0])
-            for number in numbers:
-                minimum = min(int(number), minimum)
-                maximum = max(int(number), maximum)
 
-            return [len(numbers), minimum, maximum]
+        numbers = stringWithCommaSeparatedNumbers.split(",")
+        minimum = int(numbers[0])
+        maximum = int(numbers[0])
+        for number in numbers:
+            minimum = min(int(number), minimum)
+            maximum = max(int(number), maximum)
+
+        return [len(numbers), minimum, maximum]
 
     def numElemsIter4(self, stringWithCommaSeparatedNumbers):
         if(stringWithCommaSeparatedNumbers == ""):
             return [0, -1, -1, -1]
-        else:
-            numbers = stringWithCommaSeparatedNumbers.split(",")
-            minimum = int(numbers[0])
-            maximum = int(numbers[0])
-            median = 0
-            for number in numbers:
-                minimum = min(int(number), minimum)
-                maximum = max(int(number), maximum)
-                median += int(number)
 
-            median /= len(numbers);
-            return [len(numbers), minimum, maximum, median]
+        numbers = stringWithCommaSeparatedNumbers.split(",")
+        minimum = int(numbers[0])
+        maximum = int(numbers[0])
+        median = 0
+        for number in numbers:
+            minimum = min(int(number), minimum)
+            maximum = max(int(number), maximum)
+            median += int(number)
+
+        median /= len(numbers)
+        return [len(numbers), minimum, maximum, median]
