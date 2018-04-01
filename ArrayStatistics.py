@@ -17,4 +17,4 @@ class ArrayStatistics:
             return [len(numbers), int(minimum)]
 
     def numElemsIter3(self, stringWithCommaSeparatedNumbers):
-        return 1;
+        return [0, -1, -1]
