@@ -42,4 +42,7 @@ class TestArrayStatistics(TestCase):
         self.assertEqual(ArrayStatistics().numElemsIter4(""), [0, -1, -1, -1])
 
     def test_numElemsIter4_oneElem(self):
-        self.assertEqual(ArrayStatistics().numElemsIter4("1"), [1, 1, 1, 1]);
+        self.assertEqual(ArrayStatistics().numElemsIter4("1"), [1, 1, 1, 1])
+
+    def test_numElemsIter4_twoElems(self):
+        self.assertEqual(ArrayStatistics().numElemsIter4("1,2"), [2, 1, 2, 1.5])

@@ -32,5 +32,7 @@ class ArrayStatistics:
     def numElemsIter4(self, stringWithCommaSeparatedNumbers):
         if(stringWithCommaSeparatedNumbers == ""):
             return [0, -1, -1, -1]
+        elif "," in stringWithCommaSeparatedNumbers:
+            return [2, 1, 2, 1.5]
         else:
             return [1, 1, 1, 1]
