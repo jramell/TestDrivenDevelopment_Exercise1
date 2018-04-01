@@ -15,3 +15,6 @@ class ArrayStatistics:
                 minimum = min(number, minimum)
 
             return [len(numbers), int(minimum)]
+
+    def numElemsIter3(self, stringWithCommaSeparatedNumbers):
+        return 1;
