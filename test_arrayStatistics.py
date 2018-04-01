@@ -10,3 +10,6 @@ class TestArrayStatistics(TestCase):
 
     def test_numElems_twoElems(self):
         self.assertEqual(ArrayStatistics().numElems("1,2"), 2)
+
+    def test_numElems_nElems(self):
+        self.assertEqual(ArrayStatistics().numElems("1,2,3,4,10,14"), 6)
