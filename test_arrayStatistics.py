@@ -16,3 +16,6 @@ class TestArrayStatistics(TestCase):
 
     def test_numElemsIter2_empty(self):
         self.assertEqual(ArrayStatistics().numElemsIter2(""), [0, -1])
+
+    def test_numElemsIter2_oneElem(self):
+        self.assertEqual(ArrayStatistics().numElemsIter2("1"), [0, 1])
